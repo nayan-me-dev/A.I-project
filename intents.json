@@ -1,0 +1,69 @@
+# dataset for healthcare chatbot
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day","thankyou for help","Thank you"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is this bot", "what is your age", "how old are you", "age?"],
+         "responses": ["I had slayed dragons!!", "I invented the Cavemen Wheel!!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me Dr.Bot", "I'm Dr.Bot!", "I'm your health assistant aka Dr.Bot."],
+         "context_set": ""
+        },
+        {"tag": "ilness",
+         "patterns": ["My health is declining", "I need Help", "I am feeling sick", "i am sick"],
+         "responses": ["I will walk you through. Can you please Elaborate the problem!!!"],
+         "context_set": ""
+        },
+        {"tag": "allergies",
+         "patterns": ["eye irritaion,runny nose,sneezing", "sneezing,ichy throat","allergies"],
+         "responses": ["You have Symptoms of Common Allergies.\nThese are spread by allergens like nuts,milk,pollen,mold etc.\nThe easiest way to treat them is to get rid of the cause.\nSome drugs that might be helpful in easing your problems-\n1. Antihistamines\n2. Decongestants\n3. Allergy Shots\n4. etc."],
+         "context_set": ""
+        }
+        {"tag": "cold/Flu",
+         "patterns": ["fever,headache", "pain and fatigue","dry cough and intense pain","cold"],
+         "responses": ["You have Symptoms of Cold/Flu.\nThese involve your nose,throat,lungs for transmission.\nThe easiest way to treat it is by seeking medical care. You must take plenty of rest and take meds on time.\nSome drugs that might be helpful in easing your problems-\n1. Aspirin\n2. Ibuprofen\n3. Decongestants\n4. Acetaminophen"],
+         "context_set": ""
+        }
+        {"tag": "conjuctivitis",
+         "patterns": ["redness,iching in eyes", "tearing eye","burning eye","conjuctivitis"],
+         "responses": ["You have Symptoms of Conjuctivitis(pink eye).\nThese are spread by allergens,bacterial or viral infection etc\nThe easiest way to treat them is to early diagnos the eyes or you can use eye drops to clear the bacteria.\nPreventive Measures you can take are-\n1. Dont rub your eyes.\n2. Wash your hands\n3. Avoid lenses.\n4. Use cool wet washcloth to soack off any crusting."],
+         "context_set": ""
+        }
+        {"tag": "diarrhea",
+         "patterns": ["upset stomach", "pain in stomach","loose stools","diarrhea"],
+         "responses": ["You have Symptoms of Diarrhea.\nThese are coused by contaminated food or water. Viral infection,parasites. Overuse of alcohol,poor medication and many more.\nIt can clear up on in a day or too. You must take plenty of water and take meds on time. Avoid fiber based items.\nSome drugs that might be helpful in easing your problems-\n1. Aspirin\n2. Ibuprofen\n3. Decongestants\n4. Acetaminophen"],
+         "context_set": ""
+        }
+        {"tag": "headaches",
+         "patterns": ["mild headache", "head pain","headaches"],
+         "responses": ["You have Symptoms of Headache.\nThis is due to stress or othe mental problems. Many other diseases bring headaches with them. This can also be due to overthinking or not taking proper nutrition.\nThe easiest way to treat it is by taking proper rest. You can do yoga if you like.\nSome measures that might be helpful in easing your problems-\n1. Ice pack over head.\n2. taking more breaks.\n3. ocasional use of medication.\n4. Prescribe for medication in severe cases."],
+         "context_set": ""
+        }
+        {"tag": "covid19",
+         "patterns": ["coughing", "high fever,coughing","problem in breadthing"],
+         "responses": [".\n.\n.\n.\n.\n.\nSorry! my friend but time for you has come(o_o?)\nHope you find that chinese who looked at the bat and said 'Why Not!!'"],
+         "context_set": ""
+        }
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+         "responses": ["We are open 24/7!","I am free when you are."],
+         "context_set": ""
+        }
+        {"tag": "healthcare",
+         "patterns": ["How can I live Happily.", "any health advice", "your thoughts on health"],
+         "responses": ["Having a good health is better than having tons of money and poor health.\nYou must have a health lifestyle. Eat 3 nutritional meals a day just a banana in the morning is fine.\nBut never ever turn on the Ac in summer or heater in Winters so you can strenghten your mind.\n100pushups 100situps 100squats and a 10km run Do it every single day even when your hands make crackling sound even when you are out of bredth never ever stop.\n That is the only way a human can be truly Strong."],
+         "context_set": ""
+        }
+   ]
+   }
